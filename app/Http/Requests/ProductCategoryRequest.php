@@ -25,7 +25,7 @@ class ProductCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'product_category_name' => 'required|unique:product_categories,product_category_name,'.request('id'),
         ];
     }
 
@@ -37,7 +37,7 @@ class ProductCategoryRequest extends FormRequest
     public function attributes()
     {
         return [
-            'product_category_name' => 'required|unique:product_categories,product_category_name,'.request('id'),
+            
         ];
     }
 
