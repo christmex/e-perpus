@@ -4,3 +4,4 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('item-location') }}"><i class="nav-icon la la-question"></i> Item locations</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('product-category') }}"><i class="nav-icon la la-question"></i> Product categories</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('product-variation') }}"><i class="nav-icon la la-question"></i> Product variations</a></li>
+<li class="nav-item"><a class="nav-link" href="{{ backpack_url('product-variation-option') }}"><i class="nav-icon la la-question"></i> Product variation options</a></li>
